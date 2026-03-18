@@ -80,7 +80,7 @@ void rc4_encrypt(const vector<int>& key, const string& plaintext) {
 }
 
 int main() {
-    // Khởi tạo khóa K (Bạn có thể thay đổi mảng khóa này)
+    // Khởi tạo khóa K 
     vector<int> K = {2, 4, 1, 7}; 
     string plaintext;
 
